@@ -1,0 +1,25 @@
+# CameraBlur Configuration
+# See: camerablur --help for CLI options
+
+camera:
+  device_id: 0          # Camera device ID (use `camerablur list-devices` to find)
+  width: 1280           # Capture width
+  height: 720           # Capture height
+  fps: 30               # Target framerate
+
+segmentation:
+  model: landscape      # "general" (more accurate) or "landscape" (faster)
+  smoothing: 5          # Temporal smoothing frames (0-20)
+  threshold: 0.5        # Segmentation threshold (0.0-1.0)
+
+effect:
+  mode: blur            # "blur", "image", "video", or "none"
+  blur_intensity: 101    # Blur kernel size (must be odd)
+  feather_amount: 3     # Edge feathering (0-20)
+  background_path: null # Path to background image/video (for image/video modes)
+
+output:
+  device: null          # Virtual camera device (auto-detect if null)
+
+debug:
+  preview_window: false # Show OpenCV preview window

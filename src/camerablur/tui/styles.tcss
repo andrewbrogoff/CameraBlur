@@ -1,0 +1,125 @@
+/* CameraBlur TUI Styles */
+
+Screen {
+    background: $surface;
+}
+
+#main-container {
+    width: 100%;
+    height: 100%;
+    padding: 1;
+}
+
+/* Camera selection */
+CameraSelect {
+    height: 5;
+    margin-bottom: 1;
+    padding: 1;
+    border: solid $primary;
+}
+
+CameraSelect .label {
+    text-style: bold;
+    color: $text;
+}
+
+/* Status panel */
+StatusPanel {
+    height: 3;
+    margin-bottom: 1;
+    padding: 1;
+    border: solid $secondary;
+}
+
+StatusPanel .status-label {
+    text-style: bold;
+}
+
+StatusPanel .running {
+    color: $success;
+}
+
+StatusPanel .stopped {
+    color: $warning;
+}
+
+/* Effect controls */
+EffectControls {
+    height: 12;
+    margin-bottom: 1;
+    padding: 1;
+    border: solid $primary;
+}
+
+EffectControls .section-title {
+    text-style: bold;
+    margin-bottom: 1;
+}
+
+EffectControls .control-row {
+    height: 3;
+    margin-bottom: 1;
+    align: left middle;
+}
+
+EffectControls Input {
+    width: 10;
+}
+
+EffectControls Label {
+    width: auto;
+    padding: 0 1;
+}
+
+EffectControls Select {
+    width: 20;
+}
+
+/* Small buttons for +/- controls */
+.small-btn {
+    width: 5;
+    min-width: 5;
+}
+
+/* Background picker */
+BackgroundPicker {
+    height: 7;
+    margin-bottom: 1;
+    padding: 1;
+    border: solid $primary;
+}
+
+BackgroundPicker .section-title {
+    text-style: bold;
+    margin-bottom: 1;
+}
+
+BackgroundPicker Input {
+    width: 100%;
+    margin-bottom: 1;
+}
+
+#bg-button-row {
+    height: 3;
+    align: left middle;
+}
+
+#bg-button-row Button {
+    margin-right: 1;
+}
+
+/* Button bar */
+#button-bar {
+    height: 3;
+    align: center middle;
+    padding: 1;
+}
+
+#button-bar Button {
+    margin: 0 1;
+}
+
+/* Select styling */
+Select {
+    width: 100%;
+}

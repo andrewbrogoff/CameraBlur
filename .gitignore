@@ -1,0 +1,118 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+downloads/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-wheel-metadata/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.coverage
+.coverage.*
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Translations
+*.mo
+*.pot
+
+# Virtual environments
+.env
+.env.*
+venv/
+.venv/
+env/
+ENV/
+venv.bak/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+*.iml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# pyenv
+.python-version
+
+# mypy / type checkers
+.mypy_cache/
+.pytype/
+.pyre/
+
+# Profiling
+.prof
+
+# Sphinx
+docs/_build/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite3
+
+# macOS
+.DS_Store
+
+# Linux thumbnail cache
+.trash-
+
+# Temporary files
+*.swp
+*~
+
+# Secrets / keys
+*.pem
+*.key
+secrets.json
+
+# Misc
+.cache/
+coverage-html/
+
+# Ignore build/test coverage reports or artifacts that are commonly generated
+htmlcov/
+
+# Ignore wheel distribution files
+*.whl
+
+# Ignore compiled C files
+*.so
+
+# Local project envs created by tox
+.tox/
+
+# Hypothesis
+.hypothesis/
+
+# Ensure test artifacts are not committed
+coverage.xml
+
+# If you have project-specific generated directories, add them below
+# e.g. generated_assets/

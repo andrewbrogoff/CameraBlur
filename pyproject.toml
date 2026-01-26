@@ -1,0 +1,36 @@
+[project]
+name = "camerablur"
+version = "0.1.0"
+description = "Linux virtual camera with AI-powered background blur and replacement"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "opencv-python>=4.8.0",
+    "mediapipe>=0.10.9",
+    "pyvirtualcam>=0.14.0",
+    "numpy>=2.4.1",
+    "pydantic>=2.5.0",
+    "pydantic-settings>=2.1.0",
+    "pyyaml>=6.0",
+    "typer>=0.9.0",
+    "rich>=13.0.0",
+    "textual>=7.3.0",
+    "torch>=2.0.0",
+    "torchvision>=0.15.0",
+]
+
+[project.scripts]
+camerablur = "camerablur.cli:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/camerablur"]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+    "pytest-cov>=7.0.0",
+    "ruff>=0.14.14",
+]
