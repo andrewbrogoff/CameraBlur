@@ -18,7 +18,7 @@ Linux virtual camera with AI-powered background blur and replacement. Creates a 
 
 The following video demonstrates the accuracy and performance of the background blur effect using the RVM (GPU-accelerated) backend:
 
-![Video Example](video_example.mkv)
+![Video Example](video_example.mp4)
 
 This example shows real-time background segmentation and blur at approximately 30 FPS at 1080p resolution using an NVIDIA GPU.
 
