@@ -12,6 +12,16 @@ Linux virtual camera with AI-powered background blur and replacement. Creates a 
 - **Interactive TUI** for real-time control
 - **Configuration file support** with hot-reload in TUI
 
+## Demo
+
+### GPU Version Performance
+
+The following video demonstrates the accuracy and performance of the background blur effect using the RVM (GPU-accelerated) backend:
+
+![Video Example](video_example.mkv)
+
+This example shows real-time background segmentation and blur at approximately 30 FPS at 1080p resolution using an NVIDIA GPU.
+
 ## Requirements
 
 - Linux with v4l2loopback kernel module
